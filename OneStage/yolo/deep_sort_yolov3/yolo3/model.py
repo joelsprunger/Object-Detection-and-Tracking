@@ -6,8 +6,8 @@ import numpy as np
 import tensorflow as tf
 from keras import backend as K
 from keras.layers import Conv2D, Add, ZeroPadding2D, UpSampling2D, Concatenate
-from keras.layers.advanced_activations import LeakyReLU
-from keras.layers.normalization import BatchNormalization
+from keras.layers.activation.leaky_relu import LeakyReLU
+from keras.layers.normalization.batch_normalization import BatchNormalization
 from keras.models import Model
 from keras.regularizers import l2
 
